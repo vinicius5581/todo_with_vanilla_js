@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <title>TODO</title>
+  </head>
+  <body>
+    <!-- To do Input -->
+    <input type="text" id="todo-input">
+
+    <!-- Select all button -->
+    <button id="toggle-all-completed">Select all</button>
+
+    <!-- TODO list -->
+    <ul>
+      <!-- TODO item -->
+      <li>
+        <input type="checkbox">
+        <p>Task bla</p>
+        <input type="text">
+        <button>X</button>
+      </li>
+    </ul>      
+
+    <!-- Count of active todos -->
+    <p id="active-todos-count">5 items left</p>
+
+    <!-- Filter -->
+    <input type="radio" id="filter-all" name="todo-filters" value="all">
+    <label for="all">All</label>
+
+    <input type="radio" id="filter-active" name="todo-filters" value="active">
+    <label for="all">Active</label>
+
+    <input type="radio" id="filter-completed" name="todo-filters" value="completed">
+    <label for="all">Completed</label>
+
+
+    <button id="clear-completed">Clear completed</button>
+  </body>
+</html>
